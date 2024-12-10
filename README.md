@@ -71,7 +71,7 @@ EDA focused on uncovering trends and patterns in the data:
   - Evaluated the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error     (RMSE), and R-squared (R2).
   - Visualized actual vs predicted sales and training history for deeper insights.
 
-**Key Results**
+**RESULTS**
 
 **Statistical Insights**
 
@@ -89,3 +89,7 @@ Feature Correlation:
 
 - Mean Absolute Error (MAE): Low error indicates reliable predictions.
 - R2 Score: High R2 value demonstrates strong model performance.
+
+**Conclusion**
+
+This project provides a robust framework for analyzing and predicting retail sales data. By integrating statistical analysis, machine learning, and strategic insights, it equips stakeholders with actionable recommendations for improving store performance, optimizing inventory, and refining marketing strategies.
