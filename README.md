@@ -23,6 +23,7 @@ Merged datasets into a single DataFrame and filled missing values with 0.
 Saved the preprocessed dataset as processed_data.csv.
 
 2. Exploratory Data Analysis (EDA)
+
 EDA focused on uncovering trends and patterns in the data:
 
   **Fuel Price Analysis:**
@@ -49,6 +50,7 @@ EDA focused on uncovering trends and patterns in the data:
   - Saved plots with unique filenames for easy referencing.
 
 3. Machine Learning - LSTM for Sales Prediction
+   
   **Feature Engineering**
   - Selected relevant features such as temperature, fuel price, CPI, unemployment rate, markdowns, and holiday indicators.
   - Encoded categorical variables (e.g., Store Type) using label encoding.
