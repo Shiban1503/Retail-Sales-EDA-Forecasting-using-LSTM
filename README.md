@@ -8,8 +8,11 @@ This project aims to analyze and predict key sales metrics by leveraging histori
 The analysis is based on three datasets:
 
 Features Data Set: Contains store-specific details, such as fuel price, CPI, and markdown information.
+
 Sales Data Set: Includes weekly sales information for each store and department.
+
 Stores Data Set: Provides metadata on store types and sizes.
+
 These datasets are merged into a single comprehensive dataset for analysis.
 
 **Steps and Implementation**
