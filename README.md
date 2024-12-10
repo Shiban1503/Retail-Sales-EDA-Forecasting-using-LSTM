@@ -23,28 +23,45 @@ Merged datasets into a single DataFrame and filled missing values with 0.
 Saved the preprocessed dataset as processed_data.csv.
 
 2. Exploratory Data Analysis (EDA)
-
 EDA focused on uncovering trends and patterns in the data:
+  **Fuel Price Analysis:**
+  - Observed fluctuations over three years.
+  - Examined variations by store type during holidays.
 
-**Fuel Price Analysis:**
-- Observed fluctuations over three years.
-- Examined variations by store type during holidays.
+  **Temperature Analysis:**
+  - Rounded temperature into ranges for better visualization.
+  - Analyzed its relationship with fuel prices and CPI.
 
-**Temperature Analysis:**
-- Rounded temperature into ranges for better visualization.
-- Analyzed its relationship with fuel prices and CPI.
-
-**Weekly Sales Analysis:**
-- Studied weekly sales trends across three years.
-- Compared holiday vs non-holiday sales through hypothesis testing.
+  **Weekly Sales Analysis:**
+  - Studied weekly sales trends across three years.
+  - Compared holiday vs non-holiday sales through hypothesis testing.
   
-**Correlation Analysis:**
-- Identified relationships between key variables using a heatmap.
+  **Correlation Analysis:**
+  - Identified relationships between key variables using a heatmap.
 
-**Store Performance:**
-- Ranked stores based on total weekly sales.
-- Highlighted top-performing stores.
+  **Store Performance:**
+  - Ranked stores based on total weekly sales.
+  - Highlighted top-performing stores.
 
-**Visualizations:**
-- Created various plots (line, bar, scatter) to explain the data.
-- Saved plots with unique filenames for easy referencing.
+  **Visualizations:**
+  - Created various plots (line, bar, scatter) to explain the data.
+  - Saved plots with unique filenames for easy referencing.
+
+3. Machine Learning - LSTM for Sales Prediction
+  **Feature Engineering**
+  - Selected relevant features such as temperature, fuel price, CPI, unemployment rate, markdowns, and holiday indicators.
+  - Encoded categorical variables (e.g., Store Type) using label encoding.
+  - Scaled features and target variables using MinMaxScaler.
+
+  **Sequence Preparation**
+  - Designed sequences for time-series data to feed into the LSTM model.
+
+  **Model Architecture**
+  - Built an LSTM model with 3 layers and dropout to prevent overfitting.
+  - Optimized the model using Adam optimizer and mean squared error as the loss function.
+
+  **Training and Evaluation**
+  - Trained the model on 80% of the data and validated it on the remaining 20%.
+  - Evaluated the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error     (RMSE), and R-squared (R2).
+  - Visualized actual vs predicted sales and training history for deeper insights.
+
