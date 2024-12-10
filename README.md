@@ -71,21 +71,21 @@ EDA focused on uncovering trends and patterns in the data:
   - Evaluated the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error     (RMSE), and R-squared (R2).
   - Visualized actual vs predicted sales and training history for deeper insights.
 
-├── data
-│   ├── Features data set.csv
-│   ├── sales data-set.csv
-│   ├── stores data-set.csv
-│   └── processed_data.csv
-├── models
-│   └── lstm_sales_model (saved TensorFlow model)
-├── plots
-│   ├── 1_plot.png
-│   ├── 2_plot.png
-│   └── ... (additional plots)
-├── src
-│   ├── preprocessing.py
-│   ├── eda.py
-│   ├── model_training.py
-│   └── evaluation.py
-├── README.md
-└── requirements.txt
+**Key Results**
+
+Statistical Insights
+
+Holiday Impact on Sales:
+- A hypothesis test revealed statistically significant differences in weekly sales between holidays and non-holidays.
+- T-statistic and p-value confirmed the impact of holidays on sales performance.
+
+Store Rankings:
+- Identified the top 3 performing stores based on total sales.
+
+Feature Correlation:
+- Weekly sales had notable correlations with fuel prices and CPI.
+
+**Model Performance**
+
+- Mean Absolute Error (MAE): Low error indicates reliable predictions.
+- R2 Score: High R2 value demonstrates strong model performance.
