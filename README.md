@@ -25,20 +25,26 @@ Saved the preprocessed dataset as processed_data.csv.
 2. Exploratory Data Analysis (EDA)
 
 EDA focused on uncovering trends and patterns in the data:
-Fuel Price Analysis:
-Observed fluctuations over three years.
-Examined variations by store type during holidays.
-Temperature Analysis:
-Rounded temperature into ranges for better visualization.
-Analyzed its relationship with fuel prices and CPI.
-Weekly Sales Analysis:
-Studied weekly sales trends across three years.
-Compared holiday vs non-holiday sales through hypothesis testing.
-Correlation Analysis:
-Identified relationships between key variables using a heatmap.
-Store Performance:
-Ranked stores based on total weekly sales.
-Highlighted top-performing stores.
-Visualizations:
-Created various plots (line, bar, scatter) to explain the data.
-Saved plots with unique filenames for easy referencing.
+
+**Fuel Price Analysis:**
+- Observed fluctuations over three years.
+- Examined variations by store type during holidays.
+
+**Temperature Analysis:**
+- Rounded temperature into ranges for better visualization.
+- Analyzed its relationship with fuel prices and CPI.
+
+**Weekly Sales Analysis:**
+- Studied weekly sales trends across three years.
+- Compared holiday vs non-holiday sales through hypothesis testing.
+  
+**Correlation Analysis:**
+- Identified relationships between key variables using a heatmap.
+
+**Store Performance:**
+- Ranked stores based on total weekly sales.
+- Highlighted top-performing stores.
+
+**Visualizations:**
+- Created various plots (line, bar, scatter) to explain the data.
+- Saved plots with unique filenames for easy referencing.
