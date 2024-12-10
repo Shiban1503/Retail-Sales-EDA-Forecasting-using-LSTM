@@ -24,6 +24,7 @@ Saved the preprocessed dataset as processed_data.csv.
 
 2. Exploratory Data Analysis (EDA)
 EDA focused on uncovering trends and patterns in the data:
+
   **Fuel Price Analysis:**
   - Observed fluctuations over three years.
   - Examined variations by store type during holidays.
