@@ -73,7 +73,7 @@ EDA focused on uncovering trends and patterns in the data:
 
 **Key Results**
 
-Statistical Insights
+**Statistical Insights**
 
 Holiday Impact on Sales:
 - A hypothesis test revealed statistically significant differences in weekly sales between holidays and non-holidays.
