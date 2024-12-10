@@ -71,3 +71,21 @@ EDA focused on uncovering trends and patterns in the data:
   - Evaluated the model using metrics such as Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error     (RMSE), and R-squared (R2).
   - Visualized actual vs predicted sales and training history for deeper insights.
 
+├── data
+│   ├── Features data set.csv
+│   ├── sales data-set.csv
+│   ├── stores data-set.csv
+│   └── processed_data.csv
+├── models
+│   └── lstm_sales_model (saved TensorFlow model)
+├── plots
+│   ├── 1_plot.png
+│   ├── 2_plot.png
+│   └── ... (additional plots)
+├── src
+│   ├── preprocessing.py
+│   ├── eda.py
+│   ├── model_training.py
+│   └── evaluation.py
+├── README.md
+└── requirements.txt
