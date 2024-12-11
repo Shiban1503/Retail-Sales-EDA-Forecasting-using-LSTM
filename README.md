@@ -90,6 +90,35 @@ Feature Correlation:
 - Mean Absolute Error (MAE): Low error indicates reliable predictions.
 - R2 Score: High R2 value demonstrates strong model performance.
 
+**Model Performance Metrics**
+
+- **Mean Absolute Error (MAE)**: `13894.375303761786`  
+  The mean absolute difference between the predicted and actual values, representing the average error magnitude.
+
+- **Mean Squared Error (MSE)**: `459417153.5329345`  
+  The average of the squared differences between predicted and actual values, which penalizes larger errors more heavily.
+
+- **Root Mean Squared Error (RMSE)**: `21434.018604380617`  
+  The square root of the mean squared error, providing the standard deviation of the residuals (prediction errors).
+
+- **R-Squared (R²) Score**: `0.12613910410230456`  
+  The coefficient of determination indicates how well the model's predictions fit the data. A value of 1 signifies a perfect fit, while 0 means no fit at all.
+
+**Sales Analysis**
+
+- **Total Sales During Holidays**: `505,299,551.56`  
+  The total sales recorded during holiday periods.
+
+- **Total Sales During Non-Holidays**: `6,231,919,435.55`  
+  The total sales recorded during non-holiday periods.
+
+- **Sales Difference (Holidays vs Non-Holidays)**: `-5,726,619,883.99`  
+  The difference in total sales between holiday and non-holiday periods, showing significantly higher sales during non-holiday times.
+
+**Final Insights**:
+- **Non-holiday periods** are significant for sales, with far greater sales volume than holiday periods.  
+- Businesses should focus their marketing efforts, promotions, and incentives during non-holiday weeks to capitalize on this trend and boost overall sales.
+  
 **Conclusion**
 
 This project provides a robust framework for analyzing and predicting retail sales data. By integrating statistical analysis, machine learning, and strategic insights, it equips stakeholders with actionable recommendations for improving store performance, optimizing inventory, and refining marketing strategies.
