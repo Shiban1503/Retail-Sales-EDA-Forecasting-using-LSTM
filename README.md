@@ -116,3 +116,81 @@ Visualizations:
 
 ## Conclusion
 This project provides a robust framework for analyzing and predicting retail sales data. By integrating statistical analysis, machine learning, and strategic insights, it equips stakeholders with actionable recommendations for improving store performance, optimizing inventory, and refining marketing strategies.
+
+## Installation
+
+To replicate this project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Shiban1503/Retail-Sales-EDA-Forecasting-using-LSTM.git
+   cd Retail-Sales-EDA-Forecasting-using-LSTM
+   ```
+2. Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Usage
+
+1. **Prepare the Data**:
+   - Ensure all required CSV files (`Features data set.csv`, `sales data-set.csv`, `stores data-set.csv`) are in the project directory.
+
+2. **Preprocess Data**:
+   - Run the preprocessing script to generate `processed_data.csv`.
+
+3. **Run the Jupyter Notebook**:
+   - Open `Retail Sales Analyst - EDA.ipynb` to perform EDA and build the LSTM model.
+
+4. **View Results**:
+   - Examine visualizations and predictions stored in the `plots` folder.
+
+---
+
+## Project Structure
+```
+├── lstm_model/                # Contains the trained LSTM model files
+├── plots/                     # Saved visualizations from EDA and predictions
+├── Features data set.csv      # Input dataset with store-specific details
+├── sales data-set.csv         # Weekly sales data
+├── stores data-set.csv        # Metadata on store types and sizes
+├── processed_data.csv         # Preprocessed dataset
+├── Retail Sales Analyst - EDA.ipynb  # Jupyter Notebook for EDA and modeling
+├── requirements.txt           # Dependencies for the project
+├── README.md                  # Project documentation
+└── LICENSE                    # License details
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to enhance the project, follow these steps:
+
+1. Fork the repository.
+2. Create a feature branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push your changes:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request describing your changes.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
