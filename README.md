@@ -15,6 +15,11 @@
   - [Statistical Insights](#statistical-insights)
   - [Model Performance Metrics](#model-performance-metrics)
   - [Sales Analysis](#sales-analysis)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 - [Conclusion](#conclusion)
 
 ## Purpose
@@ -114,9 +119,6 @@ Visualizations:
 - Non-holiday periods are significant for sales, with far greater sales volume than holiday periods.
 - Businesses should focus their marketing efforts, promotions, and incentives during non-holiday weeks to capitalize on this trend and boost overall sales.
 
-## Conclusion
-This project provides a robust framework for analyzing and predicting retail sales data. By integrating statistical analysis, machine learning, and strategic insights, it equips stakeholders with actionable recommendations for improving store performance, optimizing inventory, and refining marketing strategies.
-
 ## Installation
 
 To replicate this project:
@@ -194,3 +196,6 @@ Contributions are welcome! If you'd like to enhance the project, follow these st
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Conclusion
+This project provides a robust framework for analyzing and predicting retail sales data. By integrating statistical analysis, machine learning, and strategic insights, it equips stakeholders with actionable recommendations for improving store performance, optimizing inventory, and refining marketing strategies.
